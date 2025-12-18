@@ -6,44 +6,44 @@ import { Cpu, Zap, Radio, Activity, Settings, Layers } from "lucide-react";
 export function Products() {
   const products = [
     {
-      title: "Sensors",
-      description: "Precision sensors for industrial automation and IoT applications.",
+      title: "Industrial Automation",
+      description: "End-to-end automation solutions using PLCs, HMIs, and SCADA for enhanced operational efficiency.",
+      icon: Settings,
+      gradient: "from-blue-500 to-indigo-600",
+      bgGradient: "from-blue-50 to-indigo-50",
+    },
+    {
+      title: "IoT Solutions",
+      description: "Internet of Things integration for smart connectivity and remote asset management.",
+      icon: Radio,
+      gradient: "from-purple-500 to-pink-600",
+      bgGradient: "from-purple-50 to-pink-50",
+    },
+    {
+      title: "Monitoring Systems",
+      description: "Real-time surveillance and data logging systems to ensure critical process stability.",
       icon: Activity,
       gradient: "from-emerald-500 to-teal-600",
       bgGradient: "from-emerald-50 to-teal-50",
     },
     {
-      title: "Diodes",
-      description: "High-performance diodes for power rectification and signal regulation.",
-      icon: Zap,
+      title: "Control Panels",
+      description: "Custom-built electrical control panels and distribution boards tailored to your facility.",
+      icon: Layers,
       gradient: "from-amber-500 to-orange-600",
       bgGradient: "from-amber-50 to-orange-50",
     },
     {
-      title: "Transistors",
-      description: "Bipolar and Field-Effect transistors for amplification and switching.",
-      icon: Layers,
-      gradient: "from-purple-500 to-pink-600",
-      bgGradient: "from-purple-50 to-pink-50",
-    },
-    {
-      title: "Integrated Circuits (ICs)",
-      description: "Microcontrollers, memory chips, and logic gates for complex systems.",
-      icon: Cpu,
-      gradient: "from-blue-500 to-indigo-600",
-      bgGradient: "from-blue-50 to-indigo-50",
-    },
-    {
-      title: "Power Components",
-      description: "Robust power modules, thyristors, and regulators for energy management.",
+      title: "Smart Sensors",
+      description: "Precision sensors for temperature, pressure, level, and flow measurement.",
       icon: Zap,
       gradient: "from-red-500 to-rose-600",
       bgGradient: "from-red-50 to-rose-50",
     },
     {
-      title: "Custom Parts",
-      description: "Sourcing hard-to-find or specific electronic components upon request.",
-      icon: Settings,
+      title: "System Integration",
+      description: "Expert consulting and integration of complex subsystems into a unified network.",
+      icon: Cpu,
       gradient: "from-slate-600 to-slate-800",
       bgGradient: "from-slate-50 to-slate-100",
     }
@@ -129,10 +129,10 @@ export function Products() {
             className="h-1.5 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 mb-6 rounded-full mx-auto"
           ></motion.div>
           <h2 className="text-4xl lg:text-5xl font-bold bg-gradient-to-r from-slate-900 via-blue-900 to-slate-900 bg-clip-text text-transparent mb-6">
-            Our Product Range
+            Our Services & Solutions
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
-            Comprehensive selection of electronic components from world-renowned manufacturers.
+            Specialized automation, IoT, and monitoring solutions for industrial efficiency.
           </p>
         </motion.div>
 

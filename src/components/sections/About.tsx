@@ -66,16 +66,16 @@ export function About() {
                 className="h-1.5 bg-gradient-to-r from-blue-600 to-purple-600 mb-4 rounded-full"
               ></motion.div>
               <h2 className="text-4xl lg:text-5xl font-bold bg-gradient-to-r from-slate-900 via-blue-900 to-slate-900 bg-clip-text text-transparent mb-6">
-                About ElektraComponents
+                About Dara Automation
               </h2>
             </div>
 
             <div className="space-y-5">
               <p className="text-lg text-slate-700 leading-relaxed">
-                Based in Erbil, we are a leading trading company dedicated to bridging the gap between global manufacturers and the local market in Iraq. We specialize in buying and selling a wide range of electronic components for both industrial applications and commercial electronics.
+                Based in Erbil, Dara Automation is a specialized provider of Monitoring and Automation Services. We are experienced in IOT, Industrial Automation, and Monitoring Systems, delivering cutting-edge solutions to the local market in Iraq.
               </p>
               <p className="text-lg text-slate-700 leading-relaxed">
-                Whether you are a large-scale manufacturer or a specialized technician, we ensure that you have access to authentic, high-quality parts when you need them.
+                Whether for industrial facilities or specialized projects, we ensure reliable and efficient automation systems tailored to your needs.
               </p>
             </div>
 

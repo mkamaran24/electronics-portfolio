@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Menu, X, Cpu } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/lib/utils";
 
@@ -35,12 +35,11 @@ export function Navbar() {
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2 group">
-          <div className="p-2 bg-blue-600 rounded-lg text-white group-hover:bg-blue-700 transition-colors">
-            <Cpu size={24} />
-          </div>
-          <span className={cn("text-xl font-bold tracking-tight transition-colors", scrolled ? "text-slate-900" : "text-white")}>
-            Elektra<span className={cn("transition-colors", scrolled ? "text-blue-600" : "text-blue-400")}>Components</span>
-          </span>
+          <img 
+            src="/dara_automation_logo.png" 
+            alt="Dara Automation" 
+            className="h-22 w-auto object-contain" 
+          />
         </a>
 
         {/* Desktop Nav */}

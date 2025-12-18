@@ -28,18 +28,18 @@ export function Hero() {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
                 </span>
-                Premier Electronics Supplier in Erbil
+                Premier Automation Services in Erbil
             </div>
             
             <h1 className="text-5xl md:text-7xl font-bold text-white tracking-tight mb-8 max-w-5xl mx-auto leading-tight">
-              Trusted Supplier of <br/>
+              Welcome to <br/>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-400">
-                Electronic Components
+                Dara Automation
               </span>
             </h1>
             
             <p className="text-lg md:text-2xl text-slate-300 max-w-3xl mx-auto mb-12 leading-relaxed font-light">
-              We specialize in sourcing and supplying high-quality sensors, transistors, ICs, and industrial parts. Reliability you can count on.
+              Monitoring and Automation Services. Experienced in IOT and Industrial Automation and Monitoring Systems and Services.
             </p>
             
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">

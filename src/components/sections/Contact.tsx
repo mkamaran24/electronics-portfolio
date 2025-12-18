@@ -31,17 +31,17 @@ export function Contact() {
                         </div>
                         <div>
                             <h4 className="font-bold text-slate-900">Our Location</h4>
-                            <p className="text-slate-600">Empire Business Tower, Erbil, Kurdistan Region, Iraq</p>
+                            <p className="text-slate-600">Iraq - Erbil , kouran Road near Pepsi factory</p>
                         </div>
                     </div>
                      <div className="flex items-start gap-4">
-                        <div className="p-3 bg-blue-100 rounded-lg text-blue-600 shrink-0">
+                        {/* <div className="p-3 bg-blue-100 rounded-lg text-blue-600 shrink-0">
                             <Mail size={24} />
-                        </div>
-                        <div>
+                        </div> */}
+                        {/* <div>
                             <h4 className="font-bold text-slate-900">Email Us</h4>
                             <a href="mailto:sales@elektra-components.iq" className="text-slate-600 hover:text-blue-600 transition-colors">sales@elektra-components.iq</a>
-                        </div>
+                        </div> */}
                     </div>
                      <div className="flex items-start gap-4">
                         <div className="p-3 bg-blue-100 rounded-lg text-blue-600 shrink-0">
@@ -49,22 +49,17 @@ export function Contact() {
                         </div>
                         <div>
                             <h4 className="font-bold text-slate-900">Call Us</h4>
-                            <a href="tel:+9647501234567" className="text-slate-600 hover:text-blue-600 transition-colors">+964 750 123 4567</a>
+                            <div className="flex flex-col gap-1">
+                                <a href="tel:+9647500282000" className="text-slate-600 hover:text-blue-600 transition-colors">+964 750 028 2000</a>
+                                <a href="tel:+9647701554812" className="text-slate-600 hover:text-blue-600 transition-colors">+964 770 155 4812</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div className="flex-1 bg-white p-2 rounded-2xl shadow-sm border border-slate-100 h-[400px] lg:h-auto min-h-[400px]">
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d86639.85789064543!2d44.076730850278004!3d36.19640257006179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2siq!4v1765916576566!5m2!1sen!2siq" 
-                    width="100%" 
-                    height="100%" 
-                    style={{ border: 0, borderRadius: "0.75rem" }} 
-                    allowFullScreen={true} 
-                    loading="lazy" 
-                    referrerPolicy="no-referrer-when-downgrade"
-                ></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15321.377965304982!2d43.985886845583245!3d36.168429489259545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40072385619fbbe5%3A0xebb8067c34e1ecd4!2sDara.Automation!5e0!3m2!1sen!2siq!4v1766091566954!5m2!1sen!2siq" width="100%" height="100%" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
       </div>

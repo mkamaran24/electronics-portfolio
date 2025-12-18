@@ -4,8 +4,8 @@ export function Footer() {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="text-center md:text-left">
-                <h3 className="text-xl font-bold text-white mb-2">ElektraComponents</h3>
-                <p className="text-sm">Powering Innovation in Iraq.</p>
+                <h3 className="text-xl font-bold text-white mb-2">Dara Automation</h3>
+                <p className="text-sm">Monitoring and Automation Services.</p>
             </div>
             
             <div className="flex gap-6 text-sm">
@@ -15,7 +15,7 @@ export function Footer() {
             </div>
 
             <div className="text-sm text-center md:text-right">
-                <p>&copy; {new Date().getFullYear()} ElektraComponents.</p>
+                <p>&copy; {new Date().getFullYear()} Dara Automation.</p>
                 <p>All rights reserved. Erbil, Iraq.</p>
             </div>
         </div>
